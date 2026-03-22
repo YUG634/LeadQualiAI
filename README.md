@@ -1,62 +1,52 @@
 # LeadQualiAI
-AI-powered Lead qualification system using n8n, Airtable and web scrapping
 
-📌 LeadQualiAI – AI Lead Qualification System
-LeadQualiAI is an AI-powered web application that automates lead scoring and qualification using workflow automation, web scraping, and real-time data processing.
+## Overview
+LeadQualiAI is an innovative AI-driven platform designed to streamline lead qualification processes, enhancing efficiency and conversion rates for sales teams. This project leverages machine learning algorithms to prioritize leads based on their likelihood of conversion.
 
+## Tech Stack
+| Technology        | Description                          |
+|-------------------|--------------------------------------|
+| Python            | Programming language used for backend scripting.
+| Flask             | Web framework for building the API.
+| PostgreSQL        | Relational database for data storage.
+| JavaScript        | Scripting language for client-side operations.
+| React             | Library for building user interfaces.
 
-🚀 Features
-🔹 AI-based Lead Scoring (Hot / Warm / Cold)
-🔹 Website data extraction for better evaluation
-🔹 Automated Airtable CRM updates
-🔹 Returning lead detection
-🔹 Email notifications
-🔹 Real-time frontend response
+## Getting Started
+To get started with LeadQualiAI, follow these instructions:
 
-🧠 How It Works
-User submits lead details via web app
-Webhook triggers n8n workflow
-Website is scraped for business insights
-AI evaluates lead quality based on multiple factors
-Data is stored/updated in Airtable
-Response is sent back to frontend
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/YUG634/LeadQualiAI.git
+    cd LeadQualiAI
+    ```
+2. **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. **Set up the database**:
+    Make sure you have PostgreSQL installed and running. Create a database and update the configuration settings accordingly.
 
+4. **Run the application**:
+    ```bash
+    python app.py
+    ```
 
-🛠️ Tech Stack
-Frontend: Lovable (React-based UI)
-Automation: n8n
-Database: Airtable
-AI: LLM-based lead scoring
-Web Scraping: HTTP + parsing nodes
-📸 Screenshots
-🔹 Lead Form
-![Screenshot_22-3-2026_16265_aileadquali lovable app](https://github.com/user-attachments/assets/9ba10667-0de0-4c9b-a783-b49289f28958)
+## Configuration
+You can configure LeadQualiAI by editing the `config.py` file in the main directory. Important settings include:
+- Database URI
+- API keys
+- Environment variables
 
-🔹 AI Result
+## Future Improvements
+- [ ] Implement automated testing to ensure code reliability.
+- [ ] Extend lead scoring algorithms for improved accuracy.
+- [ ] Develop mobile app for on-the-go access.
+- [ ] Integrate additional APIs for lead generation.
 
-🔹 n8n Workflow
-<img width="959" height="442" alt="Screenshot 2026-03-22 163123" src="https://github.com/user-attachments/assets/a82428e0-af6a-4e02-86fa-5a5441cac938" />
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+---
 
-🔹 Airtable CRM
-<img width="895" height="292" alt="Screenshot 2026-03-22 153927" src="https://github.com/user-attachments/assets/1cd8ff0b-917c-443a-bf61-62facdbb98b6" />
-<img width="958" height="245" alt="Screenshot 2026-03-22 154100" src="https://github.com/user-attachments/assets/39f34210-c18b-4de8-9b77-18ba38103050" />
-
-
-
-
-
-⚠️ Note
-This project is for demonstration purposes.
-The workflow runs on a locally hosted n8n instance via ngrok.
-
-
-🎯 Outcome
-This project demonstrates:
-End-to-end automation
-AI-driven decision making
-Real-time system integration
-🔗 Future Improvements
-Deploy n8n to cloud
-Improve UI/UX
-Add analytics dashboard
+For more information, please refer to the documentation or reach out to the maintainer.
