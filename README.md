@@ -30,12 +30,19 @@ AI: LLM-based lead scoring
 Web Scraping: HTTP + parsing nodes
 📸 Screenshots
 🔹 Lead Form
+![Screenshot_22-3-2026_16265_aileadquali lovable app](https://github.com/user-attachments/assets/9ba10667-0de0-4c9b-a783-b49289f28958)
 
 🔹 AI Result
 
 🔹 n8n Workflow
+<img width="959" height="442" alt="Screenshot 2026-03-22 163123" src="https://github.com/user-attachments/assets/a82428e0-af6a-4e02-86fa-5a5441cac938" />
+
 
 🔹 Airtable CRM
+<img width="895" height="292" alt="Screenshot 2026-03-22 153927" src="https://github.com/user-attachments/assets/1cd8ff0b-917c-443a-bf61-62facdbb98b6" />
+<img width="958" height="245" alt="Screenshot 2026-03-22 154100" src="https://github.com/user-attachments/assets/39f34210-c18b-4de8-9b77-18ba38103050" />
+
+
 
 
 
