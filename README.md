@@ -1,30 +1,59 @@
 # LeadQualiAI
+AI-powered Lead qualification system using n8n, Airtable and web scrapping
 
-LeadQualiAI is an AI-powered tool designed to help businesses improve their lead qualification process. By harnessing the power of machine learning and natural language processing, LeadQualiAI analyzes leads and helps sales teams prioritize their efforts.
+📌 LeadQualiAI – AI Lead Qualification System
+LeadQualiAI is an AI-powered web application that automates lead scoring and qualification using workflow automation, web scraping, and real-time data processing.
 
-## Features
-- **AI-Powered Insights**: Leverage machine learning algorithms to gain insights on lead quality.
-- **Natural Language Processing**: Analyze text-based communications to evaluate leads.
-- **Customizable Criteria**: Set your own criteria for lead scoring based on your business needs.
 
-## Screenshots
+🚀 Features
+🔹 AI-based Lead Scoring (Hot / Warm / Cold)
+🔹 Website data extraction for better evaluation
+🔹 Automated Airtable CRM updates
+🔹 Returning lead detection
+🔹 Email notifications
+🔹 Real-time frontend response
 
-![Screenshot 1](screenshots/screenshot1.png)
-![Screenshot 2](screenshots/screenshot2.png)
+🧠 How It Works
+User submits lead details via web app
+Webhook triggers n8n workflow
+Website is scraped for business insights
+AI evaluates lead quality based on multiple factors
+Data is stored/updated in Airtable
+Response is sent back to frontend
 
-## Installation
-To install LeadQualiAI, follow these steps:
-1. Clone the repository.
-2. Run `npm install` to install dependencies.
 
-## Usage
-Start the application using:
-```
-npm start
-```
+🛠️ Tech Stack
+Frontend: Lovable (React-based UI)
+Automation: n8n
+Database: Airtable
+AI: LLM-based lead scoring
+Web Scraping: HTTP + parsing nodes
+📸 Screenshots
+🔹 Lead Form
+![Screenshot_22-3-2026_16265_aileadquali lovable app](https://github.com/user-attachments/assets/9ba10667-0de0-4c9b-a783-b49289f28958)
 
-## Contributing
-If you would like to contribute to the project, feel free to fork the repository and submit a pull request.
+🔹 AI Result
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for more information.
+🔹 n8n Workflow
+<img width="959" height="442" alt="Screenshot 2026-03-22 163123" src="https://github.com/user-attachments/assets/a82428e0-af6a-4e02-86fa-5a5441cac938" />
+
+
+🔹 Airtable CRM
+<img width="895" height="292" alt="Screenshot 2026-03-22 153927" src="https://github.com/user-attachments/assets/1cd8ff0b-917c-443a-bf61-62facdbb98b6" />
+<img width="958" height="245" alt="Screenshot 2026-03-22 154100" src="https://github.com/user-attachments/assets/39f34210-c18b-4de8-9b77-18ba38103050" />
+
+
+⚠️ Note
+This project is for demonstration purposes.
+The workflow runs on a locally hosted n8n instance via ngrok.
+
+
+🎯 Outcome
+This project demonstrates:
+End-to-end automation
+AI-driven decision making
+Real-time system integration
+🔗 Future Improvements
+Deploy n8n to cloud
+Improve UI/UX
+Add analytics dashboard
