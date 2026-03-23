@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
-  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-lead-marketing-automation-soft-fill-juicy-fish.png" alt="LeadQualiAI Logo" width="60">
+  <img src="<img width="1320" height="1000" alt="234419917" src="https://github.com/user-attachments/assets/14fff5bd-2e19-4a42-ba56-80dd91d3c60b" />
+" alt="LeadQualiAI Logo" width="60">
   <br>
   LeadQualiAI
   <br>
