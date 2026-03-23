@@ -79,10 +79,17 @@ The entire process is automated, running from the moment a user submits a form t
 *[Screenshot placeholder - Add your results screenshot here]*
 
 ### 🔹 n8n Workflow Automation
-*[Screenshot placeholder - Add your workflow screenshot here]*
+<img width="959" height="442" alt="workflow" src="https://github.com/user-attachments/assets/2cbcbf4f-32ad-4ae2-8c37-1b5ad99cb34d" />
+
 
 ### 🔹 Airtable CRM
-*[Screenshot placeholder - Add your Airtable screenshot here]*
+<img width="895" height="292" alt="airtable" src="https://github.com/user-attachments/assets/7066a399-081e-4a16-86cf-8bebbcb3b4ab" />
+<img width="958" height="245" alt="airtable (2)" src="https://github.com/user-attachments/assets/6bf2bcf7-6d04-4143-b3c2-691a39093972" />
+
+### 🔹 Email Notification
+<img width="909" height="325" alt="Screenshot 2026-03-22 162815" src="https://github.com/user-attachments/assets/238f29ef-b305-4811-b0d8-0571f92c8ff5" />
+<img width="910" height="440" alt="Screenshot 2026-03-22 162948" src="https://github.com/user-attachments/assets/86c9f58b-f660-435b-a55c-e5110a5ef21e" />
+
 
 ---
 
