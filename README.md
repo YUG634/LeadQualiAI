@@ -1,59 +1,123 @@
-# LeadQualiAI
-AI-powered Lead qualification system using n8n, Airtable and web scrapping
+<h1 align="center">
+  <br>
+  <img src="https://img.icons8.com/external-soft-fill-juicy-fish/60/000000/external-lead-marketing-automation-soft-fill-juicy-fish.png" alt="LeadQualiAI Logo" width="60">
+  <br>
+  LeadQualiAI
+  <br>
+</h1>
 
-📌 LeadQualiAI – AI Lead Qualification System
-LeadQualiAI is an AI-powered web application that automates lead scoring and qualification using workflow automation, web scraping, and real-time data processing.
+<h4 align="center">An AI-powered lead qualification system that automates scoring, scraping, and CRM integration.</h4>
 
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#system-workflow">System Workflow</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#future-improvements">Future Improvements</a>
+</p>
 
-🚀 Features
-🔹 AI-based Lead Scoring (Hot / Warm / Cold)
-🔹 Website data extraction for better evaluation
-🔹 Automated Airtable CRM updates
-🔹 Returning lead detection
-🔹 Email notifications
-🔹 Real-time frontend response
+<p align="center">
+  <img src="https://img.shields.io/badge/status-active-success.svg" alt="Project Status">
+  <img src="https://img.shields.io/badge/ai-lead_scoring-blue" alt="AI Lead Scoring">
+  <img src="https://img.shields.io/badge/automation-n8n-orange" alt="n8n Automation">
+  <img src="https://img.shields.io/badge/crm-airtable-blueviolet" alt="Airtable CRM">
+</p>
 
-🧠 How It Works
-User submits lead details via web app
-Webhook triggers n8n workflow
-Website is scraped for business insights
-AI evaluates lead quality based on multiple factors
-Data is stored/updated in Airtable
-Response is sent back to frontend
+LeadQualiAI is an intelligent automation system that transforms raw lead data into actionable business insights. By combining web scraping, AI-driven analysis, and automated CRM workflows, it evaluates business credibility, budget potential, and digital presence to deliver instant lead scores.
 
+🔗 **Live Demo:** [LeadQualiAI Web App](https://your-lovable-app-url.com)
 
-🛠️ Tech Stack
-Frontend: Lovable (React-based UI)
-Automation: n8n
-Database: Airtable
-AI: LLM-based lead scoring
-Web Scraping: HTTP + parsing nodes
-📸 Screenshots
-🔹 Lead Form
-![Screenshot_22-3-2026_16265_aileadquali lovable app](https://github.com/user-attachments/assets/9ba10667-0de0-4c9b-a783-b49289f28958)
+> ⚠️ **Note:** The backend workflow runs locally via n8n. The demo works only when the workflow is active.
 
-🔹 AI Result
+---
 
-🔹 n8n Workflow
-<img width="959" height="442" alt="Screenshot 2026-03-22 163123" src="https://github.com/user-attachments/assets/a82428e0-af6a-4e02-86fa-5a5441cac938" />
+## ✨ Key Features
 
+- **🤖 AI-based Lead Scoring:** Automatically categorizes leads as **Hot**, **Warm**, or **Cold** based on a multi-factor analysis.
+- **🌐 Website Data Extraction:** Scrapes lead websites to gather contextual data for a more informed evaluation.
+- **🔄 Automated Airtable CRM Integration:** Seamlessly creates new records or updates existing ones in your Airtable base.
+- **🆔 Returning Lead Detection:** Identifies returning leads and intelligently updates their information and score, preventing duplicates.
+- **📧 Email Notification System:** Sends automated, customizable email alerts for high-priority (Hot) leads.
+- **⚡ Real-time Response:** Provides instant feedback to the user on the frontend, creating a responsive user experience.
 
-🔹 Airtable CRM
-<img width="895" height="292" alt="Screenshot 2026-03-22 153927" src="https://github.com/user-attachments/assets/1cd8ff0b-917c-443a-bf61-62facdbb98b6" />
-<img width="958" height="245" alt="Screenshot 2026-03-22 154100" src="https://github.com/user-attachments/assets/39f34210-c18b-4de8-9b77-18ba38103050" />
+---
 
+## 🧠 System Workflow
 
-⚠️ Note
-This project is for demonstration purposes.
-The workflow runs on a locally hosted n8n instance via ngrok.
+The entire process is automated, running from the moment a user submits a form to the final database update and user notification.
 
+**Form Submission → Webhook → Validation → Website Scraping → AI Scoring → Airtable Update → Response**
 
-🎯 Outcome
-This project demonstrates:
-End-to-end automation
-AI-driven decision making
-Real-time system integration
-🔗 Future Improvements
-Deploy n8n to cloud
-Improve UI/UX
-Add analytics dashboard
+1. **Form Submission:** User submits lead details via web application
+2. **Webhook Trigger:** Submission triggers n8n automation workflow
+3. **Validation & Scraping:** Input data is validated and lead's website is scraped for insights
+4. **AI Scoring:** LLM analyzes data to evaluate lead quality based on credibility, budget, and digital presence
+5. **CRM Update:** Lead information and score are stored or updated in Airtable
+6. **Real-time Response:** Results are returned instantly to the frontend
+
+---
+
+## 🛠️ Tech Stack
+
+| Category | Technology |
+| -------- | ---------- |
+| **Frontend** | [Lovable](https://lovable.dev/) (SaaS-focused UI builder) |
+| **Automation** | [n8n](https://n8n.io/) (Workflow automation platform) |
+| **Database/CRM** | [Airtable](https://airtable.com/) (Cloud-based database and CRM) |
+| **AI/LLM** | OpenAI API / Local LLM (for lead scoring and data analysis) |
+| **Web Scraping** | HTTP Request & HTML Extract nodes within n8n |
+| **Connectivity** | Webhooks for real-time data transfer |
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Lead Input Form
+*[Screenshot placeholder - Add your form screenshot here]*
+
+### 🔹 AI Qualification Result
+*[Screenshot placeholder - Add your results screenshot here]*
+
+### 🔹 n8n Workflow Automation
+*[Screenshot placeholder - Add your workflow screenshot here]*
+
+### 🔹 Airtable CRM
+*[Screenshot placeholder - Add your Airtable screenshot here]*
+
+---
+
+## 🎯 What This Project Demonstrates
+
+- **End-to-end Workflow Automation:** A complete automation pipeline connecting frontend, scraping tools, AI, and database
+- **AI-Driven Decision Making:** Practical application of Large Language Models (LLMs) for business logic and classification
+- **Real-time System Integration:** Seamless communication between various services to provide instant user feedback
+- **Practical Use of Webhooks and APIs:** Demonstrates event-driven architecture and system integration
+
+---
+
+## 🔮 Future Improvements
+
+- **☁️ Cloud Deployment:** Deploy the n8n workflow to a cloud instance for 24/7 public availability
+- **📊 Enhanced UI/UX & Dashboard:** Build a more sophisticated dashboard with lead analytics, scoring trends, and pipeline metrics
+- **📈 Lead Tracking & Reporting:** Add features to track lead interactions over time and generate automated reports
+- **🧠 Advanced Scraping:** Incorporate more robust scraping logic to handle JavaScript-heavy sites and extract deeper insights
+
+---
+
+## ⭐ Project Goal
+
+To showcase how the convergence of **AI** and **workflow automation** can revolutionize common business processes. This project demonstrates a tangible path to reducing manual effort, increasing efficiency, and enabling faster, data-driven decisions in lead qualification and sales operations.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
+
+---
+
+## 🙏 Acknowledgements
+
+- [Lovable](https://lovable.dev/) for the rapid frontend development
+- [n8n](https://n8n.io/) for the powerful, open-source automation platform
+- [Airtable](https://airtable.com/) for the flexible, cloud-based database
+- [OpenAI](https://openai.com/) for the AI models powering lead scoring
