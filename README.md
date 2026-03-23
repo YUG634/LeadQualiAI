@@ -76,7 +76,8 @@ The entire process is automated, running from the moment a user submits a form t
 
 
 ### 🔹 AI Qualification Result
-*[Screenshot placeholder - Add your results screenshot here]*
+![result](https://github.com/user-attachments/assets/9c90f747-203a-4c1c-9f44-c64a8cdf46b3)
+
 
 ### 🔹 n8n Workflow Automation
 <img width="959" height="442" alt="workflow" src="https://github.com/user-attachments/assets/2cbcbf4f-32ad-4ae2-8c37-1b5ad99cb34d" />
