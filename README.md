@@ -72,7 +72,8 @@ The entire process is automated, running from the moment a user submits a form t
 ## 📸 Screenshots
 
 ### 🔹 Lead Input Form
-*[Screenshot placeholder - Add your form screenshot here]*
+![form](https://github.com/user-attachments/assets/3a96d0db-19b5-4d9d-a96e-62bc9c576dfc)
+
 
 ### 🔹 AI Qualification Result
 *[Screenshot placeholder - Add your results screenshot here]*
