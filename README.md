@@ -24,7 +24,7 @@
 
 LeadQualiAI is an intelligent automation system that transforms raw lead data into actionable business insights. By combining web scraping, AI-driven analysis, and automated CRM workflows, it evaluates business credibility, budget potential, and digital presence to deliver instant lead scores.
 
-🔗 **Live Demo:** [LeadQualiAI Web App](https://your-lovable-app-url.com)
+🔗 **Live Demo:** [LeadQualiAI Web App](https://aileadquali.lovable.app/)
 
 > ⚠️ **Note:** The backend workflow runs locally via n8n. The demo works only when the workflow is active.
 
