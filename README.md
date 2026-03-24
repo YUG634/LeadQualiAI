@@ -63,7 +63,7 @@ The entire process is automated, running from the moment a user submits a form t
 | **Frontend** | [Lovable](https://lovable.dev/) (SaaS-focused UI builder) |
 | **Automation** | [n8n](https://n8n.io/) (Workflow automation platform) |
 | **Database/CRM** | [Airtable](https://airtable.com/) (Cloud-based database and CRM) |
-| **AI/LLM** | OpenAI API / Local LLM (for lead scoring and data analysis) |
+| **AI/LLM** | Google Gemini API / Local LLM (for lead scoring and data analysis) |
 | **Web Scraping** | HTTP Request & HTML Extract nodes within n8n |
 | **Connectivity** | Webhooks for real-time data transfer |
 
