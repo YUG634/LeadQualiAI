@@ -129,4 +129,4 @@ This project is open-source and available under the **MIT License**.
 - [Lovable](https://lovable.dev/) for the rapid frontend development
 - [n8n](https://n8n.io/) for the powerful, open-source automation platform
 - [Airtable](https://airtable.com/) for the flexible, cloud-based database
-- [OpenAI](https://openai.com/) for the AI models powering lead scoring
+- [Aistudio](https://aistudio.google.com/) for the AI models powering lead scoring
